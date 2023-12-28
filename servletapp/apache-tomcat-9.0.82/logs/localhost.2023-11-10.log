@@ -1,0 +1,2528 @@
+10-Nov-2023 10:13:38.672 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:13:38.672 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:13:38.688 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@59636c47')
+10-Nov-2023 10:14:00.061 重大 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/showaccdata3.jsp] の中の [16] 行目でエラーが発生しました
+List cannot be resolved to a type
+13: </head>
+14: 
+15: <body>
+16:     <% List<String> listdata = (List<String>)request.getAttribute("listdata"); %>
+17:     <p>acc_data一覧</p>
+18:     <!-- データ一覧を表示　-->
+19:     <table border=1>
+
+
+JSPファイル: [/showaccdata3.jsp] の中の [16] 行目でエラーが発生しました
+List cannot be resolved to a type
+13: </head>
+14: 
+15: <body>
+16:     <% List<String> listdata = (List<String>)request.getAttribute("listdata"); %>
+17:     <p>acc_data一覧</p>
+18:     <!-- データ一覧を表示　-->
+19:     <table border=1>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:14:00.061 重大 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/showaccdata3.jsp] の中の [16] 行目でエラーが発生しました
+List cannot be resolved to a type
+13: </head>
+14: 
+15: <body>
+16:     <% List<String> listdata = (List<String>)request.getAttribute("listdata"); %>
+17:     <p>acc_data一覧</p>
+18:     <!-- データ一覧を表示　-->
+19:     <table border=1>
+
+
+JSPファイル: [/showaccdata3.jsp] の中の [16] 行目でエラーが発生しました
+List cannot be resolved to a type
+13: </head>
+14: 
+15: <body>
+16:     <% List<String> listdata = (List<String>)request.getAttribute("listdata"); %>
+17:     <p>acc_data一覧</p>
+18:     <!-- データ一覧を表示　-->
+19:     <table border=1>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/showaccdata3.jsp] の中の [16] 行目でエラーが発生しました
+List cannot be resolved to a type
+13: </head>
+14: 
+15: <body>
+16:     <% List<String> listdata = (List<String>)request.getAttribute("listdata"); %>
+17:     <p>acc_data一覧</p>
+18:     <!-- データ一覧を表示　-->
+19:     <table border=1>
+
+
+JSPファイル: [/showaccdata3.jsp] の中の [16] 行目でエラーが発生しました
+List cannot be resolved to a type
+13: </head>
+14: 
+15: <body>
+16:     <% List<String> listdata = (List<String>)request.getAttribute("listdata"); %>
+17:     <p>acc_data一覧</p>
+18:     <!-- データ一覧を表示　-->
+19:     <table border=1>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:14:29.120 重大 [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:14:29.120 重大 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [[/showaccdata3.jsp] の処理中に行番号 [28] で例外が発生しました。
+
+25:             <td>メモ</td>
+26: 		</tr>
+27: 		<%
+28: 			for (int i = 0; i < list.size(); i++) {
+29: 				String[] data = list.get(i);
+30: 				out.print("<tr><td>"+data[0]+"</td>");
+31: 				out.print("<td>"+data[1]+"</td>");
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:16:42.285 重大 [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:16:42.285 重大 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [[/showaccdata3.jsp] の処理中に行番号 [28] で例外が発生しました。
+
+25:             <td>メモ</td>
+26: 		</tr>
+27: 		<%
+28: 			for (int i = 0; i < list.size(); i++) {
+29: 				String[] data = list.get(i);
+30: 				out.print("<tr><td>"+data[0]+"</td>");
+31: 				out.print("<td>"+data[1]+"</td>");
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:16:52.054 重大 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:16:52.054 重大 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [[/showaccdata3.jsp] の処理中に行番号 [28] で例外が発生しました。
+
+25:             <td>メモ</td>
+26: 		</tr>
+27: 		<%
+28: 			for (int i = 0; i < list.size(); i++) {
+29: 				String[] data = list.get(i);
+30: 				out.print("<tr><td>"+data[0]+"</td>");
+31: 				out.print("<td>"+data[1]+"</td>");
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:17:32.225 重大 [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:17:32.225 重大 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [[/showaccdata3.jsp] の処理中に行番号 [28] で例外が発生しました。
+
+25:             <td>メモ</td>
+26: 		</tr>
+27: 		<%
+28: 			for (int i = 0; i < list.size(); i++) {
+29: 				String[] data = list.get(i);
+30: 				out.print("<tr><td>"+data[0]+"</td>");
+31: 				out.print("<td>"+data[1]+"</td>");
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:19:01.663 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:19:01.663 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:19:01.663 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1df5c7e3')
+10-Nov-2023 10:19:05.553 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 10:19:05.553 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 10:19:14.621 重大 [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:19:14.621 重大 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [[/showaccdata3.jsp] の処理中に行番号 [28] で例外が発生しました。
+
+25:             <td>メモ</td>
+26: 		</tr>
+27: 		<%
+28: 			for (int i = 0; i < list.size(); i++) {
+29: 				String[] data = list.get(i);
+30: 				out.print("<tr><td>"+data[0]+"</td>");
+31: 				out.print("<td>"+data[1]+"</td>");
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:19:46.468 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:19:46.468 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:19:46.468 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7135ce0a')
+10-Nov-2023 10:19:49.887 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 10:19:49.887 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 10:19:58.573 重大 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:19:58.574 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [ShowAccdataServlet3] のServlet.service() が例外 [[/showaccdata3.jsp] の処理中に行番号 [28] で例外が発生しました。
+
+25:             <td>メモ</td>
+26: 		</tr>
+27: 		<%
+28: 			for (int i = 0; i < list.size(); i++) {
+29: 				String[] data = list.get(i);
+30: 				out.print("<tr><td>"+data[0]+"</td>");
+31: 				out.print("<td>"+data[1]+"</td>");
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.size()" because "list" is null
+		at org.apache.jsp.showaccdata3_jsp._jspService(showaccdata3_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at ShowAccdataServlet3.doPost(ShowAccdataServlet3.java:91)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:20:21.739 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 10:20:21.739 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 10:21:08.779 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:21:08.779 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:21:08.779 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5aa62ee7')
+10-Nov-2023 10:33:35.254 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:33:35.254 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:33:35.254 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@44592c39')
+10-Nov-2023 10:33:38.146 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 10:33:38.146 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 10:34:31.123 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 10:34:31.123 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 10:34:37.544 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:34:37.544 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:34:37.544 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3c9ef6e9')
+10-Nov-2023 10:36:26.764 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [[insertdata1.jsp] の処理中に行番号 [27] で例外が発生しました。
+
+24:         <label>入金</label><input type="number" name="getm"><br>
+25:         <label>出金</label><input type="number" name="outm"><br>
+26:         <label>メモ</label><input type="text" name="memo"><br>
+27:         <label>残金</label><input type="number" name="cash" value=<%= Integer.parseInt(request.getParameter("cash")) %>><br>
+28:         <input type="submit" value="登録">
+29:     </form>
+30: </body>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NumberFormatException: For input string: "null"
+		at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+		at java.base/java.lang.Integer.parseInt(Integer.java:665)
+		at java.base/java.lang.Integer.parseInt(Integer.java:781)
+		at org.apache.jsp.insertdata1_jsp._jspService(insertdata1_jsp.java:143)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:37:04.603 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [[insertdata1.jsp] の処理中に行番号 [27] で例外が発生しました。
+
+24:         <label>入金</label><input type="number" name="getm"><br>
+25:         <label>出金</label><input type="number" name="outm"><br>
+26:         <label>メモ</label><input type="text" name="memo"><br>
+27:         <label>残金</label><input type="number" name="cash" value=<%= Integer.parseInt(request.getParameter("cash")) %>><br>
+28:         <input type="submit" value="登録">
+29:     </form>
+30: </body>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NumberFormatException: For input string: "null"
+		at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+		at java.base/java.lang.Integer.parseInt(Integer.java:665)
+		at java.base/java.lang.Integer.parseInt(Integer.java:781)
+		at org.apache.jsp.insertdata1_jsp._jspService(insertdata1_jsp.java:143)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:37:17.827 重大 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [[insertdata1.jsp] の処理中に行番号 [27] で例外が発生しました。
+
+24:         <label>入金</label><input type="number" name="getm"><br>
+25:         <label>出金</label><input type="number" name="outm"><br>
+26:         <label>メモ</label><input type="text" name="memo"><br>
+27:         <label>残金</label><input type="number" name="cash" value=<%= Integer.parseInt(request.getParameter("cash")) %>><br>
+28:         <input type="submit" value="登録">
+29:     </form>
+30: </body>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NumberFormatException: For input string: "null"
+		at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+		at java.base/java.lang.Integer.parseInt(Integer.java:665)
+		at java.base/java.lang.Integer.parseInt(Integer.java:781)
+		at org.apache.jsp.insertdata1_jsp._jspService(insertdata1_jsp.java:143)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 10:49:33.248 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 10:49:33.248 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 10:49:38.940 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 10:49:38.940 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 10:49:38.940 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6cbb175')
+10-Nov-2023 11:01:57.417 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:01:57.417 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 11:02:03.502 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 11:02:03.502 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 11:02:03.502 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@57e5396b')
+10-Nov-2023 11:38:01.419 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:38:01.419 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 11:38:09.035 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 11:38:09.035 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 11:38:09.051 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6467ddc7')
+10-Nov-2023 11:40:45.767 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:40:45.767 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 11:40:52.909 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 11:40:52.909 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 11:40:52.909 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3c9ef6e9')
+10-Nov-2023 11:42:40.452 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:42:40.452 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 11:42:47.136 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 11:42:47.136 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 11:42:47.152 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@27b337bb')
+10-Nov-2023 11:55:43.835 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:55:43.835 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 11:55:49.042 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 11:55:49.042 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 11:55:49.042 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2f054f70')
+10-Nov-2023 11:57:15.455 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:57:15.470 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 11:57:23.824 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 11:57:23.824 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 11:57:23.842 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3cdff901')
+10-Nov-2023 11:57:48.771 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 11:57:48.771 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 12:06:10.181 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 12:06:10.181 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 12:06:10.197 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5aa62ee7')
+10-Nov-2023 12:07:48.119 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 12:07:48.119 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 12:17:21.254 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 12:17:21.254 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 12:17:21.254 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@668cc9a2')
+10-Nov-2023 12:17:38.793 重大 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [30] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+33:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [31] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+33:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+34:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:17:38.793 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [30] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+33:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [31] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+33:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+34:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [30] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+33:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [31] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+28:         <select name="item">
+29:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+33:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+34:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:23:44.670 重大 [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Invalid float literal number
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= 1.equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= 2.equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= 3.equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:23:44.670 重大 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Invalid float literal number
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= 1.equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= 2.equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= 3.equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Invalid float literal number
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= 1.equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+30:             <option value="2"<%= 2.equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+31:             <option value="3"<%= 3.equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:27:54.760 重大 [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Invalid float literal number
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= 1.equals(item_code) ? "selected" : ""; %>>食費</option>
+30:             <option value="2"<%= 2.equals(item_code) ? "selected" : ""; %>>光熱費</option>
+31:             <option value="3"<%= 3.equals(item_code) ? "selected" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:27:54.760 重大 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Invalid float literal number
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= 1.equals(item_code) ? "selected" : ""; %>>食費</option>
+30:             <option value="2"<%= 2.equals(item_code) ? "selected" : ""; %>>光熱費</option>
+31:             <option value="3"<%= 3.equals(item_code) ? "selected" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Invalid float literal number
+26:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+27:         <label>内訳</label>
+28:         <select name="item">
+29:             <option value="1"<%= 1.equals(item_code) ? "selected" : ""; %>>食費</option>
+30:             <option value="2"<%= 2.equals(item_code) ? "selected" : ""; %>>光熱費</option>
+31:             <option value="3"<%= 3.equals(item_code) ? "selected" : ""; %>>住宅費</option>
+32:         </select><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:30:28.915 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 12:30:28.915 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 12:30:34.463 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 12:30:34.463 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 12:30:34.463 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@64518270')
+10-Nov-2023 12:30:51.618 重大 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:30:51.634 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? "selected" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? "selected" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? "selected" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:32:31.081 重大 [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:32:31.081 重大 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <label>内訳</label>
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= "1".equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= "2".equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= "3".equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:35:09.598 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 12:35:09.598 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 12:35:15.072 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 12:35:15.072 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 12:35:15.072 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@57e5396b')
+10-Nov-2023 12:35:29.597 重大 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Invalid float literal number
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1.equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2.equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3.equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:35:29.597 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Invalid float literal number
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1.equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2.equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3.equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Invalid float literal number
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1.equals(item_code) ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2.equals(item_code) ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3.equals(item_code) ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:37:11.435 重大 [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:37:11.436 重大 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [27] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [28] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+25:         <% int item_code  = (int)request.getAttribute("item_code");%>
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [29] 行目でエラーが発生しました
+Syntax error on token ";", delete this token
+26:         <select name="item">
+27:             <option value="1"<%= 1 == item_code ? " selected=\"selected\"" : ""; %>>食費</option>
+28:             <option value="2"<%= 2 == item_code ? " selected=\"selected\"" : ""; %>>光熱費</option>
+29:             <option value="3"<%= 3 == item_code ? " selected=\"selected\"" : ""; %>>住宅費</option>
+30:         </select><br>
+31:         <label>入金</label><input type="number" name="getm" value=<%=request.getAttribute("get_money") %>><br>
+32:         <label>出金</label><input type="number" name="outm" value=<%=request.getAttribute("out_money") %>><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 12:41:24.600 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 12:41:24.600 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 19:18:35.253 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 19:18:35.253 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 19:18:35.256 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7aaad0')
+10-Nov-2023 19:19:03.440 重大 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [26] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+23:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code"); %>
+26:         <% if (item_code.equals(1)) { %>
+27:             <select name="item">
+28:                 <option value="1" selected>食費</option>
+29:                 <option value="2">光熱費</option>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [32] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+29:                 <option value="2">光熱費</option>
+30:                 <option value="3">住宅費</option>
+31:             </select><br>
+32:         <% } else if (item_code.equals(2)) { %>
+33:             <select name="item">
+34:                 <option value="1">食費</option>
+35:                 <option value="2" selected>光熱費</option>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 19:19:03.440 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [26] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+23:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code"); %>
+26:         <% if (item_code.equals(1)) { %>
+27:             <select name="item">
+28:                 <option value="1" selected>食費</option>
+29:                 <option value="2">光熱費</option>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [32] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+29:                 <option value="2">光熱費</option>
+30:                 <option value="3">住宅費</option>
+31:             </select><br>
+32:         <% } else if (item_code.equals(2)) { %>
+33:             <select name="item">
+34:                 <option value="1">食費</option>
+35:                 <option value="2" selected>光熱費</option>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [26] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+23:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+24:         <label>内訳</label>
+25:         <% int item_code  = (int)request.getAttribute("item_code"); %>
+26:         <% if (item_code.equals(1)) { %>
+27:             <select name="item">
+28:                 <option value="1" selected>食費</option>
+29:                 <option value="2">光熱費</option>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [32] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+29:                 <option value="2">光熱費</option>
+30:                 <option value="3">住宅費</option>
+31:             </select><br>
+32:         <% } else if (item_code.equals(2)) { %>
+33:             <select name="item">
+34:                 <option value="1">食費</option>
+35:                 <option value="2" selected>光熱費</option>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 19:21:08.354 重大 [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [26] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+23:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+24:         <label>内訳</label>
+25:         <% int itemc  = (int)request.getAttribute("item_code"); %>
+26:         <% if (itemc.equals(1)) { %>
+27:             <select name="item">
+28:                 <option value="1" selected>食費</option>
+29:                 <option value="2">光熱費</option>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [32] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+29:                 <option value="2">光熱費</option>
+30:                 <option value="3">住宅費</option>
+31:             </select><br>
+32:         <% } else if (itemc.equals(2)) { %>
+33:             <select name="item">
+34:                 <option value="1">食費</option>
+35:                 <option value="2" selected>光熱費</option>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 19:21:08.354 重大 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [CopydataServlet1] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [26] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+23:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+24:         <label>内訳</label>
+25:         <% int itemc  = (int)request.getAttribute("item_code"); %>
+26:         <% if (itemc.equals(1)) { %>
+27:             <select name="item">
+28:                 <option value="1" selected>食費</option>
+29:                 <option value="2">光熱費</option>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [32] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+29:                 <option value="2">光熱費</option>
+30:                 <option value="3">住宅費</option>
+31:             </select><br>
+32:         <% } else if (itemc.equals(2)) { %>
+33:             <select name="item">
+34:                 <option value="1">食費</option>
+35:                 <option value="2" selected>光熱費</option>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/updatedata1.jsp] の中の [26] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+23:         <label>日付</label><input type="text" name="date" value=<%=request.getAttribute("acc_date") %>><br>
+24:         <label>内訳</label>
+25:         <% int itemc  = (int)request.getAttribute("item_code"); %>
+26:         <% if (itemc.equals(1)) { %>
+27:             <select name="item">
+28:                 <option value="1" selected>食費</option>
+29:                 <option value="2">光熱費</option>
+
+
+JSPファイル: [/updatedata1.jsp] の中の [32] 行目でエラーが発生しました
+Cannot invoke equals(int) on the primitive type int
+29:                 <option value="2">光熱費</option>
+30:                 <option value="3">住宅費</option>
+31:             </select><br>
+32:         <% } else if (itemc.equals(2)) { %>
+33:             <select name="item">
+34:                 <option value="1">食費</option>
+35:                 <option value="2" selected>光熱費</option>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at CopydataServlet1.doPost(CopydataServlet1.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+10-Nov-2023 19:30:09.907 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 19:30:09.908 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 19:30:16.127 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 19:30:16.127 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 19:30:16.130 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@27b337bb')
+10-Nov-2023 19:36:16.499 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 19:36:16.499 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 19:54:51.522 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 19:54:51.522 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 19:54:51.525 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3cdff901')
+10-Nov-2023 19:57:55.296 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 19:57:55.296 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 19:58:00.754 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 19:58:00.754 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 19:58:00.758 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@668cc9a2')
+10-Nov-2023 19:59:06.381 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 19:59:06.381 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 21:00:02.937 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 21:00:02.937 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 21:00:02.940 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6371cf2f')
+10-Nov-2023 21:02:38.740 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 21:02:38.740 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 21:03:29.369 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 21:03:29.369 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 21:03:29.384 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2a8f6e6')
+10-Nov-2023 21:24:52.891 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Nov-2023 21:24:52.891 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Nov-2023 21:39:07.849 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Nov-2023 21:39:07.849 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Nov-2023 21:39:07.852 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2f054f70')

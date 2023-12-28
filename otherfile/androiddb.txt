@@ -1,0 +1,72 @@
+// データベース作成メソッド
+
+@Override
+public void onCreate(SQLiteDatabase db) {
+    StringBuilder sb_cash = new StringBuilder();
+    sb_cash.append("CREATE TABLE cash(");
+    sb_cash.append("id INTEGER PRIMARY KEY AUTOINCREMENT,");
+    sb_cash.append("date TEXT NOT NULL,");
+    sb_cash.append("spending INTEGER NOT NULL DEFAULT 0,");
+    sb_cash.append("income INTEGER NOT NULL DEFAULT 0,");
+    sb_cash.append("category TEXT NOT NULL,");
+    sb_cash.append("memo TEXT");
+    sb_cash.append(");");
+    String sql_cash = sb_cash.toString();
+    db.execSQL(sql_cash);
+
+    StringBuilder sb_bank = new StringBuilder();
+    sb_bank.append("CREATE TABLE bank(");
+    sb_bank.append("id INTEGER PRIMARY KEY AUTOINCREMENT,");
+    sb_bank.append("date TEXT NOT NULL,");
+    sb_bank.append("spending INTEGER NOT NULL DEFAULT 0,");
+    sb_bank.append("income INTEGER NOT NULL DEFAULT 0,");
+    sb_bank.append("memo TEXT");
+    sb_bank.append(");");
+    String sql_bank = sb_bank.toString();
+    db.execSQL(sql_bank);
+
+    StringBuilder sb_emoney = new StringBuilder();
+    sb_emoney.append("CREATE TABLE emoney(");
+    sb_emoney.append("id INTEGER PRIMARY KEY AUTOINCREMENT,");
+    sb_emoney.append("date TEXT NOT NULL,");
+    sb_emoney.append("spending INTEGER NOT NULL DEFAULT 0,");
+    sb_emoney.append("income INTEGER NOT NULL DEFAULT 0,");
+    sb_emoney.append("memo TEXT");
+    sb_emoney.append(");");
+    String sql_emoney = sb_emoney.toString();
+    db.execSQL(sql_emoney);
+    
+    StringBuilder sb_credit = new StringBuilder();
+    sb_credit.append("CREATE TABLE credit(");
+    sb_credit.append("id INTEGER PRIMARY KEY AUTOINCREMENT,");
+    sb_credit.append("date TEXT NOT NULL,");
+    sb_credit.append("spending INTEGER NOT NULL DEFAULT 0,");
+    sb_credit.append("reset INTEGER NOT NULL DEFAULT 0,");
+    sb_credit.append("memo TEXT");
+    sb_credit.append(");");
+    String sql_credit = sb_credit.toString();
+    db.execSQL(sql_credit);
+
+    StringBuilder sb_setting = new StringBuilder();
+    sb_setting.append("CREATE TABLE setting(");
+    sb_setting.append("id INTEGER PRIMARY KEY AUTOINCREMENT,");
+    sb_setting.append("user_name TEXT NOT NULL,");
+    sb_setting.append("pas TEXT NOT NULL,");
+    sb_setting.append("cash INTEGER NOT NULL DEFAULT 0,");
+    sb_setting.append("bank INTEGER NOT NULL DEFAULT 0,");
+    sb_setting.append("emoney INTEGER NOT NULL DEFAULT 0,");
+    sb_setting.append("credit INTEGER NOT NULL DEFAULT 0,");
+    sb_setting.append("auto_receive INTEGER NOT NULL DEFAULT 0,");
+    sb_setting.append("auto_payment INTEGER NOT NULL DEFAULT 0,");
+    sb_setting.append(");");
+    String sql_setting = sb_setting.toString();
+    db.execSQL(sql_setting);
+
+    StringBuilder sb_category = new StringBuilder();
+    sb_category.append("CREATE TABLE category(");
+    sb_category.append("id INTEGER PRIMARY KEY AUTOINCREMENT,");
+    sb_category.append("category_name TEXT NOT NULL");
+    sb_category.append(");");
+    String sql_category = sb_category.toString();
+    db.execSQL(sql_category);
+}

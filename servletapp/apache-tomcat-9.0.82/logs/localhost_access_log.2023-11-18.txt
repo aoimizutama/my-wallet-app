@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:03 +0900] "GET /kakeiboapp/FirstwindowServlet HTTP/1.1" 200 589
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:03 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:29 +0900] "POST /kakeiboapp/home1.jsp HTTP/1.1" 200 995
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:29 +0900] "GET /kakeiboapp/menu.css HTTP/1.1" 200 442
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:35 +0900] "POST /kakeiboapp/SelectcashServlet1 HTTP/1.1" 200 1309
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:42 +0900] "GET /kakeiboapp/home1.jsp HTTP/1.1" 200 995
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:43 +0900] "POST /kakeiboapp/SelectupdateServlet1 HTTP/1.1" 200 6840
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:43 +0900] "GET /kakeiboapp/example.css HTTP/1.1" 200 630
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:51 +0900] "GET /kakeiboapp/home1.jsp HTTP/1.1" 200 995
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:52:52 +0900] "POST /kakeiboapp/ShowAccdataServlet1 HTTP/1.1" 200 6241
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:53:00 +0900] "GET /kakeiboapp/home1.jsp HTTP/1.1" 200 995
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:53:02 +0900] "POST /kakeiboapp/SelectupdateServlet1 HTTP/1.1" 200 6840
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:53:06 +0900] "GET /kakeiboapp/home1.jsp HTTP/1.1" 200 995
+0:0:0:0:0:0:0:1 - - [18/Nov/2023:08:53:08 +0900] "POST /kakeiboapp/ShowAccdataServlet1 HTTP/1.1" 200 6241

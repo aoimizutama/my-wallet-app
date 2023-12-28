@@ -1,0 +1,1514 @@
+05-Nov-2023 13:14:18.802 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 13:14:18.802 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 13:14:18.802 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3c9ef6e9')
+05-Nov-2023 13:14:48.405 重大 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 13:15:20.957 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 13:15:20.957 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 13:25:53.687 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 13:25:53.687 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 13:25:53.687 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@57e5396b')
+05-Nov-2023 13:26:10.250 重大 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <!-- <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br> -->
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <!-- <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br> -->
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <!-- <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br> -->
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <!-- <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br> -->
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 13:26:58.044 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 13:26:58.044 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 13:30:14.720 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 13:30:14.720 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 13:30:14.735 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@57e5396b')
+05-Nov-2023 13:30:28.469 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [33] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [34] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<% =request.getAttribute("cash") %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<% =request.getAttribute("bank") %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+37:     <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 13:31:22.774 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 13:31:22.774 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 13:54:47.506 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 13:54:47.506 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 13:54:47.522 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@668cc9a2')
+05-Nov-2023 13:55:03.344 重大 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke サーブレット [jsp] のServlet.service()が例外を投げました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/cashorbank.jsp] の中の [20] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+17:                 <option value="genkin">現金</option>
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+
+
+JSPファイル: [/cashorbank.jsp] の中の [20] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+17:                 <option value="genkin">現金</option>
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+
+
+JSPファイル: [/cashorbank.jsp] の中の [21] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+24: 
+
+
+JSPファイル: [/cashorbank.jsp] の中の [21] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+24: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at FirstwindowServlet.doPost(FirstwindowServlet.java:60)
+		at FirstwindowServlet.doGet(FirstwindowServlet.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 13:55:03.344 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [FirstwindowServlet] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/cashorbank.jsp] の中の [20] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+17:                 <option value="genkin">現金</option>
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+
+
+JSPファイル: [/cashorbank.jsp] の中の [20] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+17:                 <option value="genkin">現金</option>
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+
+
+JSPファイル: [/cashorbank.jsp] の中の [21] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+24: 
+
+
+JSPファイル: [/cashorbank.jsp] の中の [21] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+24: 
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/cashorbank.jsp] の中の [20] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+17:                 <option value="genkin">現金</option>
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+
+
+JSPファイル: [/cashorbank.jsp] の中の [20] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+17:                 <option value="genkin">現金</option>
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+
+
+JSPファイル: [/cashorbank.jsp] の中の [21] 行目でエラーが発生しました
+Syntax error on token "=", @ expected
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+24: 
+
+
+JSPファイル: [/cashorbank.jsp] の中の [21] 行目でエラーが発生しました
+Syntax error, type annotations are illegal here
+18:                 <option value="ginko">銀行</option>
+19:             </select>
+20:             <input type="hidden" name="cash" value=<% =request.getAttribute("cash") %>>
+21:             <input type="hidden" name="bank" value=<% =request.getAttribute("bank") %>>
+22:         </form>
+23: </body>
+24: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at FirstwindowServlet.doPost(FirstwindowServlet.java:60)
+		at FirstwindowServlet.doGet(FirstwindowServlet.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 13:57:01.635 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 13:57:01.635 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 13:57:01.650 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2e590b')
+05-Nov-2023 13:57:06.595 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 13:57:06.595 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 13:58:02.765 重大 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [5] 行目でエラーが発生しました
+Cannot cast from String to int
+2: 
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = request.getParameter("cashorbank"); %>
+5: <% int cash  = (int)request.getParameter("cash"); %>
+6: <% int bank  = (int)request.getParameter("bank"); %>
+7: 
+8: <!DOCTYPE html>
+
+
+JSPファイル: [/insertdata.jsp] の中の [6] 行目でエラーが発生しました
+Cannot cast from String to int
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = request.getParameter("cashorbank"); %>
+5: <% int cash  = (int)request.getParameter("cash"); %>
+6: <% int bank  = (int)request.getParameter("bank"); %>
+7: 
+8: <!DOCTYPE html>
+9: <html>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+cash cannot be resolved to a type
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+Duplicate local variable out
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+Syntax error on token ".", ; expected
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+The method write(String) is undefined for the type insertdata_jsp
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+cash cannot be resolved to a type
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+Duplicate local variable out
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+Syntax error on token ".", ; expected
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+The method write(String) is undefined for the type insertdata_jsp
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+bank cannot be resolved to a type
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+Duplicate local variable out
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+Syntax error on token ".", ; expected
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+The method write(String) is undefined for the type insertdata_jsp
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [5] 行目でエラーが発生しました
+Cannot cast from String to int
+2: 
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = request.getParameter("cashorbank"); %>
+5: <% int cash  = (int)request.getParameter("cash"); %>
+6: <% int bank  = (int)request.getParameter("bank"); %>
+7: 
+8: <!DOCTYPE html>
+
+
+JSPファイル: [/insertdata.jsp] の中の [6] 行目でエラーが発生しました
+Cannot cast from String to int
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = request.getParameter("cashorbank"); %>
+5: <% int cash  = (int)request.getParameter("cash"); %>
+6: <% int bank  = (int)request.getParameter("bank"); %>
+7: 
+8: <!DOCTYPE html>
+9: <html>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+cash cannot be resolved to a type
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+Duplicate local variable out
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+Syntax error on token ".", ; expected
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [25] 行目でエラーが発生しました
+The method write(String) is undefined for the type insertdata_jsp
+22: 	        <label>入金</label><input type="number" name="getm"><br>
+23: 	        <label>出金</label><input type="number" name="outm"><br>
+24: 	        <label>メモ</label><input type="text" name="memo"><br>
+25:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+26:             <input type="submit" value="登録">
+27:         </form>
+28:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+cash cannot be resolved to a type
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+Duplicate local variable out
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+Syntax error on token ".", ; expected
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [35] 行目でエラーが発生しました
+The method write(String) is undefined for the type insertdata_jsp
+32: 	        <label>入金</label><input type="number" name="getm"><br>
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+bank cannot be resolved to a type
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+Duplicate local variable out
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+Syntax error on token ".", ; expected
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [36] 行目でエラーが発生しました
+The method write(String) is undefined for the type insertdata_jsp
+33: 	        <label>出金</label><input type="number" name="outm"><br>
+34: 	        <label>メモ</label><input type="text" name="memo"><br>
+35:             <label>残金</label><input type="number" name="cash" value=<% cash %>><br>
+36:             <label>預金</label><input type="number" name="bank" value=<% bank %>><br>
+37:             <input type="submit" value="登録">
+38:         </form>
+39:     <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 14:02:06.141 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+req cannot be resolved
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% Integer.parseInt(req.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, insert ";" to complete Statement
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% Integer.parseInt(req.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+req cannot be resolved
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% Integer.parseInt(req.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, insert ";" to complete Statement
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% Integer.parseInt(req.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 14:02:27.583 重大 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+req cannot be resolved
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<%=Integer.parseInt(req.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+req cannot be resolved
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<%=Integer.parseInt(req.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 14:04:30.165 重大 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, insert ";" to complete Statement
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% Integer.parseInt(request.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [23] 行目でエラーが発生しました
+Syntax error, insert ";" to complete Statement
+20: 	        <label>入金</label><input type="number" name="getm"><br>
+21: 	        <label>出金</label><input type="number" name="outm"><br>
+22: 	        <label>メモ</label><input type="text" name="memo"><br>
+23:             <label>残金</label><input type="number" name="cash" value=<% Integer.parseInt(request.getParameter("cash")) %>><br>
+24:             <input type="submit" value="登録">
+25:         </form>
+26:     <% } else { %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 14:09:54.668 重大 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [4] 行目でエラーが発生しました
+Syntax error on token "<", invalid Expression
+1: <!-- データ登録画面　-->
+2: 
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = <%=request.getParameter("cashorbank") %>; %>
+5: 
+6: <!DOCTYPE html>
+7: <html>
+
+
+JSPファイル: [/insertdata.jsp] の中の [4] 行目でエラーが発生しました
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+1: <!-- データ登録画面　-->
+2: 
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = <%=request.getParameter("cashorbank") %>; %>
+5: 
+6: <!DOCTYPE html>
+7: <html>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/insertdata.jsp] の中の [4] 行目でエラーが発生しました
+Syntax error on token "<", invalid Expression
+1: <!-- データ登録画面　-->
+2: 
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = <%=request.getParameter("cashorbank") %>; %>
+5: 
+6: <!DOCTYPE html>
+7: <html>
+
+
+JSPファイル: [/insertdata.jsp] の中の [4] 行目でエラーが発生しました
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+1: <!-- データ登録画面　-->
+2: 
+3: <%@ page contentType="text/html;charset=utf-8" %>
+4: <% String cashorbank = <%=request.getParameter("cashorbank") %>; %>
+5: 
+6: <!DOCTYPE html>
+7: <html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 14:13:56.665 重大 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke パス [/kakeiboapp] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [[/insertdata.jsp] の処理中に行番号 [33] で例外が発生しました。
+
+30: 	        <label>入金</label><input type="number" name="getm"><br>
+31: 	        <label>出金</label><input type="number" name="outm"><br>
+32: 	        <label>メモ</label><input type="text" name="memo"><br>
+33:             <label>残金</label><input type="number" name="cash" value=<%=Integer.parseInt(request.getParameter("cash")) %>><br>
+34:             <label>預金</label><input type="number" name="bank" value=<%=Integer.parseInt(request.getParameter("bank")) %>><br>
+35:             <input type="submit" value="登録">
+36:         </form>
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	java.lang.NumberFormatException: Cannot parse null string
+		at java.base/java.lang.Integer.parseInt(Integer.java:627)
+		at java.base/java.lang.Integer.parseInt(Integer.java:781)
+		at org.apache.jsp.insertdata_jsp._jspService(insertdata_jsp.java:157)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 14:19:30.316 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 14:19:30.316 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 14:40:07.892 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 14:40:07.892 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 14:40:07.900 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6467ddc7')
+05-Nov-2023 14:56:00.295 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 14:56:00.295 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 14:56:00.295 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@668cc9a2')
+05-Nov-2023 14:57:31.151 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 14:57:31.151 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 15:16:32.045 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 15:16:32.045 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 15:16:32.045 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6371cf2f')
+05-Nov-2023 15:17:56.443 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 15:17:56.443 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 15:18:04.896 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 15:18:04.896 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 15:18:04.896 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@64518270')
+05-Nov-2023 15:18:19.363 重大 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke サーブレット [InsertServlet1] のServlet.service()が例外を投げました
+	java.lang.NumberFormatException: For input string: ""
+		at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+		at java.base/java.lang.Integer.parseInt(Integer.java:675)
+		at java.base/java.lang.Integer.parseInt(Integer.java:781)
+		at InsertServlet1.doPost(InsertServlet1.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Nov-2023 15:23:22.060 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 15:23:22.060 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 15:47:28.584 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 15:47:28.584 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 15:47:28.584 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3cdff901')
+05-Nov-2023 15:48:11.410 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 15:48:11.410 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 15:48:18.439 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 15:48:18.439 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 15:48:18.439 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@27b337bb')
+05-Nov-2023 15:48:47.996 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 15:48:47.996 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Nov-2023 15:58:11.695 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Nov-2023 15:58:11.695 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Nov-2023 15:58:11.698 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@668cc9a2')
+05-Nov-2023 16:18:29.124 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Nov-2023 16:18:29.124 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
