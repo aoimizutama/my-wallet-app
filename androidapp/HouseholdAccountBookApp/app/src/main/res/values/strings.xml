@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">HouseholdAccountBookApp</string>
+
+    <string name="tv_loginTitle">Log In</string>
+    <string name="tv_psw">パスワード</string>
+    <string name="bt_login">ログイン</string>
+    <string name="bt_toCheckPsw">パスワード確認</string>
+    <string name="tv_toSignup">初めての方は新規登録からお願いします。</string>
+    <string name="bt_toSignup">新規登録</string>
+
+    <string name="tv_checkPswTitle">パスワード確認</string>
+    <string name="tv_checkPswMessage">ユーザ名を入力すると、登録したパスワードを確認できます。</string>
+    <string name="tv_userName2">ユーザ名</string>
+    <string name="bt_checkPsw">パスワードを確認する</string>
+
+    <string name="tv_signupTitle">新規登録</string>
+    <string name="tv_signupMessage">ユーザ名、パスワード、お財布残高を登録してください。</string>
+    <string name="tv_userName">ユーザ名</string>
+    <string name="tv_psw2">パスワード</string>
+    <string name="tv_mainBalance">お財布残高</string>
+    <string name="bt_signup">新規登録</string>
+
+    <string name="tv_homeTitle">HOME</string>
+    <string name="tv_mainMethod">お財布残高</string>
+    <string name="tv_selectMethodCategoryList">履歴確認 or 記録</string>
+    <string name="tv_homeMessage">以下のリストをタップしてください。</string>
+    <string name="bt_toAddMethod">処理方法を追加</string>
+    <string name="bt_toDeleteMethod">処理方法を削除</string>
+
+    <string name="tv_addMethodTitle">処理方法を追加</string>
+    <string name="tv_selectMethodCategory">処理方法選択</string>
+    <string name="tv_setMethodName">処理方法名</string>
+    <string name="tv_setBalance">残高</string>
+    <string name="bt_addMethod">追加する</string>
+
+    <string name="tv_deleteMethodTitle">処理方法を削除</string>
+    <string name="tv_deleteMethodMessage">削除する処理方法を選択してください。</string>
+    <string name="bt_deleteMethod">削除する</string>
+    <string name="bt_cancelDeleteMethod">キャンセル</string>
+
+    <string name="tv_balance">残高</string>
+    <string name="bt_toAddWalletData">新たに記録</string>
+    <string name="bt_backHome">HOMEに戻る</string>
+    <string name="tv_historyMessage">以下のリストをタップすると履歴編集ができます。</string>
+
+    <string name="tv_date">日付</string>
+    <string name="tv_howUse">使用方法</string>
+    <string name="rb_income">収入</string>
+    <string name="rb_spending">支出</string>
+    <string name="rb_transfer">振替</string>
+    <string name="tv_transfer">振替先</string>
+    <string name="tv_price">金額</string>
+    <string name="tv_selectMoneyCategory">カテゴリ選択</string>
+    <string name="tv_memo">メモ</string>
+    <string name="bt_addAccountData">記録する</string>
+
+    <string name="tv_creditDate">日付</string>
+    <string name="tv_creditHowUse">使用方法</string>
+    <string name="rb_incomeCredit">使用</string>
+    <string name="rb_transferCredit">精算</string>
+    <string name="tv_transferCredit">精算先</string>
+    <string name="tv_creditPrice">金額</string>
+    <string name="tv_creditMemo">メモ</string>
+    <string name="bt_addCreditAccountData">記録する</string>
+
+    <string name="tv_detailHistoryTitle">履歴編集</string>
+    <string name="bt_toChangeAccountData">変更</string>
+    <string name="bt_toDeleteAccountData">削除</string>
+
+    <string name="tv_deleteAccountDataTitle">削除確認</string>
+    <string name="tv_deleteMessage">選択されたデータを削除します。よろしいですか。</string>
+    <string name="bt_yes">削除する</string>
+    <string name="bt_no">キャンセル</string>
+
+    <string name="tv_changeAccountDataTitle">変更</string>
+    <string name="tv_date2">日付</string>
+    <string name="tv_howUse2">使用方法</string>
+    <string name="rb_income2">収入</string>
+    <string name="rb_spending2">支出</string>
+    <string name="rb_transfer2">振替</string>
+    <string name="tv_transfer2">振替先</string>
+    <string name="tv_price2">金額</string>
+    <string name="tv_selectMoneyCategory2">カテゴリ選択</string>
+    <string name="tv_memo2">メモ</string>
+    <string name="bt_changeAccountData">変更する</string>
+</resources>
