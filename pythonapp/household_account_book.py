@@ -1,6 +1,3 @@
-# エラーなどの処理
-# \表示をやめる
-
 # -*- coding: utf-8 -*-
 
 import tkinter as tk
